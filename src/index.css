@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.image{
+  width: 330px;
+  height: 220px;
+  object-fit: cover;
+}
+.slider_container{
+  display:flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.slider{
+  margin: 27px;
+}
+.bodytype{
+  margin-top: 50px;
+}
+.textContainer{
+  display: flex;
+  align-items: center;
+}
+.bottomMenu{
+  margin-top: 30px;
+  margin-left: 60px;
+  width: 60%;
+  display: flex;
+  justify-content :space-around;
+  align-items: center;
+}
+.arrowContainer{
+  margin: 50px 50px;
+  display: flex;
+  float: right;
+}
+.arrow{
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: 0 20px 0 0;
+  cursor: pointer;
+}
+.arrowicon{
+  padding: 16px;
+}
+:hover.arrow{
+  background-color: rgba(70, 67, 67, 0.634);
+}
+.bodytype{
+  text-transform: uppercase;
+}
+.modelname{
+  margin-right: 20px;
+}
+.button{
+  color: rgb(16, 115, 177);
+  font-size: 20px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media(max-width: 600px){
+  .slider_container{
+    width: 100%;
+    height: 600px;
+  }
+  .slider{
+    width: 80%;
+    height: 80%;
+    margin-left: 50px;
+  }
+  .imageContainer{
+    width: 100%;
+    align-items: center;
+  }
+  .image{
+    width: 90%;
+    height: 10%;
+  }
+  .bottomMenu{
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    justify-content :space-around;
+    align-items: center;
+  }
+  
+}
